@@ -14,6 +14,7 @@ namespace MSTestJenkinsTests
             Test t = new Test();
             var res = t.m1("Marish");
             Trace.WriteLine(res);
+            Assert.IsNotNull(t);
         }
     }
 }
