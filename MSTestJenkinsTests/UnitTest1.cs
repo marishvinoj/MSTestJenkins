@@ -8,14 +8,14 @@ namespace MSTestJenkinsTests
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-            Test t = new Test();
-            var res = t.m1("Marish");
-            Trace.WriteLine(res);
-            Assert.IsNull(t);
-        }
+        //[TestMethod]
+        //public void TestMethod1()
+        //{
+        //    Test t = new Test();
+        //    var res = t.m1("Marish");
+        //    Trace.WriteLine(res);
+        //    Assert.IsNotNull(t);
+        //}
 
         [TestMethod]
         public void TestMethod2()
@@ -23,7 +23,7 @@ namespace MSTestJenkinsTests
             Test t = new Test();
             var res = t.m1("Marish");
             Trace.WriteLine(res);
-            Assert.IsNotNull(t);
+            Assert.IsNull(t);
         }
 
     }
