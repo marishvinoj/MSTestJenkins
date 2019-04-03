@@ -14,7 +14,7 @@ namespace MSTestJenkinsTests
             Test t = new Test();
             var res = t.m1("Marish");
             Trace.WriteLine(res);
-            Assert.IsNotNull(t);
+            Assert.IsNull(t);
         }
 
         [TestMethod]
@@ -23,7 +23,7 @@ namespace MSTestJenkinsTests
             Test t = new Test();
             var res = t.m1("Marish");
             Trace.WriteLine(res);
-            Assert.IsNull(t);
+            Assert.IsNotNull(t);
         }
 
     }
