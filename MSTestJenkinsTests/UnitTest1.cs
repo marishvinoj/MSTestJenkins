@@ -15,7 +15,7 @@ namespace MSTestJenkinsTests
             var res = t.m1("Marish");
             Trace.WriteLine(res);
             Assert.IsNotNull(t);
-        }
+        } 
 
         //[TestMethod]
         //public void TestMethod2()
